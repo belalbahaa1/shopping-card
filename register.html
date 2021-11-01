@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping Card | Register Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="brand"> Shopping Card </a>
+
+          <nav>
+            <ul>
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- ./header-content -->
+      </div>
+      <!-- ./container -->
+    </header>
+
+    <section class="section-form">
+      <form novalidate>
+        <h2>Register User</h2>
+        <input type="email" placeholder="Enter Email" id="email" />
+        <input type="text" placeholder="Enter Username" id="username" />
+        <input type="password" placeholder="Enter password" id="password" />
+
+        <input class="btn" type="submit" value="sign Up" id="sign-up" />
+
+        <span class="create">Have Account</span>
+        <a href="login.html" class="new-acc">Login</a>
+      </form>
+    </section>
+    <!-- ./section-form -->
+
+    <script src="js/register.js"></script>
+  </body>
+</html>
